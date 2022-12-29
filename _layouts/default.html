@@ -18,6 +18,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include analytics.html %}
+{% endif %}
+
 </head>
 
 {% if jekyll.environment == 'production' %}
