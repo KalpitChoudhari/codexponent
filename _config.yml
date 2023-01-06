@@ -1,7 +1,7 @@
 # Site
 name: "Codexponent"
 title: "Codexponent"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "Technical blogs based on Ruby on Rails, React, AWS and Docker."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'G-4B0GEHN8ET'
@@ -10,7 +10,7 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 
-Authors
+# Authors
 authors:
   kalpit:
     name: kalpit
