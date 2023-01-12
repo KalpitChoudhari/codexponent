@@ -8,9 +8,8 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built to give knowledge about some problem whihc we face on our day to day basis while working.</p>
+<p>This website is built to give knowledge about some problem which we face on our day to day basis while working.</p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 </div>
 
 <div class="col-md-4">
