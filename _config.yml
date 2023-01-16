@@ -5,6 +5,7 @@ description: "Technical blogs based on Ruby on Rails, React, AWS and Docker."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 google_analytics: 'G-4B0GEHN8ET'
+url: https://codexponent.com
 disqus: 'demowebsite'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
@@ -12,19 +13,20 @@ permalink: /:title/
 
 # Authors
 authors:
-  kalpit:
-    name: kalpit
-    display_name: kalpit
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: kalpitchoudhari01@gmail.com
-    description: "Full stack developer working on ruby on rails and react"
+  Kalpit:
+    name: Kalpit
+    display_name: Kalpit
+    avatar: 'assets/images/kalpit.jpeg'
+    gravatar: 'e56154546cf4be74e393c62d1ae9f9d4'
+    email: choudharikalpit120@gmail.com
+    description: "Full stack developer working on Ruby on Rails and React"
   Mayuresh:
     name: Mayuresh
     display_name: Mayuresh    
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/mayuresh.jpeg'
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: pawarmayuresh29@gmail.com
-    description: "Full stack developer working on ruby on rails and react"
+    description: "Full stack developer working on Ruby on Rails and React"
 
 # Plugins
 plugins:
