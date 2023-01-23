@@ -82,7 +82,7 @@ Controller#Action | users#index
 ...
 ```
 
-### Collection Rotes:
+### Collection Routes:
 
 In collection routes, call to action does not depend on resource. i.e. it does not depend on its parent id. In collection routes we don’t need to pass an id in order to access or call the action.
 
