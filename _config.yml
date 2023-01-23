@@ -20,6 +20,7 @@ authors:
     gravatar: 'e56154546cf4be74e393c62d1ae9f9d4'
     email: choudharikalpit120@gmail.com
     description: "Full stack developer working on Ruby on Rails and React"
+    twitter: https://twitter.com/ChoudhariKalpit
   Mayuresh:
     name: Mayuresh
     display_name: Mayuresh    
@@ -27,6 +28,7 @@ authors:
     gravatar: b1cc14991db7a456fcd761680bbc8f81
     email: pawarmayuresh29@gmail.com
     description: "Full stack developer working on Ruby on Rails and React"
+    twitter: https://twitter.com/cric_jr7
 
 # Plugins
 plugins:
