@@ -25,7 +25,7 @@ Now let’s start step by step:
 
 Click on create bucket as we are not changing any default configuration.
 
-1. Now that we have successfully created S3 bucket, let’s moved to ruby code which will directly upload file to created bucket.
+1. Now that we have successfully created S3 bucket, let’s move to ruby code which will directly upload file to created bucket.
 2. In order to upload file from ruby code, we’ll need following info
     1. AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID
     2. bucket name
