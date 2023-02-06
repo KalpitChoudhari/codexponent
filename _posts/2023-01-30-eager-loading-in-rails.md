@@ -6,7 +6,7 @@ categories: [ Ruby, Rails ]
 image: assets/images/eager_loading.png
 absolute_url: eager-loading-in-rails
 ---
-Eager loading is noting but loading all the associated records using as few queries as possible.
+Eager loading is nothing but loading all the associated records using as few queries as possible.
 
 Most of us heard about N + 1 query problem.
 
