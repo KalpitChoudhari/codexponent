@@ -17,20 +17,16 @@ How to install:-
 > gem 'benchmark'
 
 
-and then 
-> bundle
- or install it as 
+and then `bundle` or install it as 
 
 > gem install benchmark
 
 
 How to use:-
 
-suppose you’re doing a ton of queries and you need to figure out what is faster in retrieving the record ‘which’ or ‘find’
+suppose you’re doing a ton of queries and you need to figure out what is faster in retrieving the record `which` or `find` for that purpose, you can benchmark it.
 
-for that purpose, you can benchmark it
-
-let’s consider you have one method which uses ‘find’
+let’s consider you have one method which uses `find`
 
 ```ruby
 def meth
@@ -39,7 +35,7 @@ end
 ```
 
 
-and another method which uses ‘where’
+and another method which uses `where`
 
 ```ruby
 def meth2
