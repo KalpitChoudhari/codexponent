@@ -13,14 +13,15 @@ This blog post will discuss the Brakeman gem and its features, how to install an
 
 **Features of Brakeman**:-
 
-1. Scanning for vulnerabilities: Brakeman scans your Rails application for potential security vulnerabilities, including SQL injection, cross-site scripting, mass assignment, and more.
-2. Detailed reporting: Brakeman provides a detailed report of any vulnerabilities it finds, including the affected code and the potential risk.
-3. Customizable configuration: Brakeman allows you to customize its configuration to suit your specific needs. You can set options such as which directories to scan, which checks to perform, and more.
-4. Integration with CI/CD: Brakeman integrates easily with CI/CD pipelines, making automating security testing in your development process easy.
+- Scanning for vulnerabilities: Brakeman scans your Rails application for potential security vulnerabilities, including SQL injection, cross-site scripting, mass assignment, and more.
+- Detailed reporting: Brakeman provides a detailed report of any vulnerabilities it finds, including the affected code and the potential risk.
+- Customizable configuration: Brakeman allows you to customize its configuration to suit your specific needs. You can set options such as which directories to scan, which checks to perform, and more.
+- Integration with CI/CD: Brakeman integrates easily with CI/CD pipelines, making automating security testing in your development process easy.
 
 **Installation**:-
 
-1. add `brakeman` gem to your gemfile and `bundle install` it
+- add `brakeman` gem to your gemfile and `bundle install` it
+> Note:- add this gem to the development group
 
 ```ruby
 group :development, :test do
@@ -28,18 +29,17 @@ group :development, :test do
 end
 ```
 
-- Note:- add it to the development group
-1. run `gem install brakeman`  on the console
+- run `gem install brakeman`  on the console
 
 **Uses**:- 
 
-1. in your project directory run 
+- in your project directory run 
 
 ```ruby
 brakeman your_rails_app
 ```
 
-1. To specify your result in a file you can use
+- To specify your result in a file you can use
 
 ```ruby
 brakeman -o file
