@@ -38,7 +38,7 @@ jobs:
     steps:
       - run:
           name: deploy
-					command: deployment.config
+	  command: deployment.config
     requires:
       - build
     filters:
