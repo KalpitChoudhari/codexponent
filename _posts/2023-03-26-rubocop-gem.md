@@ -16,13 +16,13 @@ Getting Started with Rubocop:
 
 To get started, you need to install the rubocop gem. You can do this by running the following command:
 
-# Either run
-gem install rubocop 
+#### Either run
+`gem install rubocop`
 
-# Or add the following line to your Gemfile
-gem 'rubocop'
-# And then run
-bundle install
+#### Or add the following line to your Gemfile
+`gem 'rubocop'`
+#### And then run
+`bundle install`
 
 
 Using Rubocop in Your Application:
@@ -31,7 +31,7 @@ Once rubocop is installed, you can run it on your application by simply typing r
 
 If you only want to apply Rubocop to a specific file, you can run:
 
-rubocop /path/to/file
+`rubocop /path/to/file`
 
 Again, you can use the -a flag to automatically fix any fixable issues in that file.
 
