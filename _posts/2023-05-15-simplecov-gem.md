@@ -20,8 +20,7 @@ To start using SimpleCov in your Ruby on Rails project, follow these steps:
 
 Open your project's **`Gemfile`** and add the following line:
 
-```
-rubyCopy code
+```ruby
 group :test do
   gem 'simplecov', require: false
 end
@@ -34,8 +33,7 @@ This will ensure that SimpleCov is only loaded when running tests.
 
 Run the following command to install the SimpleCov gem:
 
-```
-bashCopy code
+```bash
 bundle install
 
 ```
@@ -44,8 +42,7 @@ bundle install
 
 Create a new file called **`simplecov.rb`** in the **`test`** directory (or **`spec`** directory for RSpec) and add the following code:
 
-```
-rubyCopy code
+```ruby
 require 'simplecov'
 SimpleCov.start 'rails'
 
@@ -57,8 +54,7 @@ This configuration assumes that you are using the Rails framework. If you are us
 
 In your test helper file (e.g., **`test_helper.rb`** or **`rails_helper.rb`** for RSpec), require the SimpleCov configuration file by adding the following line:
 
-```
-rubyCopy code
+```ruby
 require_relative './path/to/simplecov.rb'
 
 ```
