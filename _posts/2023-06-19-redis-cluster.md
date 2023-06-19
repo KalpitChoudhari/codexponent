@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Rails 7 excluding on ActiveRecord::Relation"
+title:  "Migrating from an Unencrypted Redis Cluster to an Encrypted Redis Cluster"
 author: Mayuresh
 categories: [ Redis ]
 image: assets/images/redis.png
 ---
-
-# **Migrating from an Unencrypted Redis Cluster to an Encrypted Redis Cluster**
 
 AWS provides two types of encryption for Redis clusters: at-rest encryption and in-transit encryption. Let's explore what each of these means and how to migrate your Redis cluster to enable encryption.
 
